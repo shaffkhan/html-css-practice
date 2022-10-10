@@ -1,0 +1,82 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.product-title{
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    /* font-family: sans-serif; */
+    text-transform: uppercase;  
+    font-weight :bolder;
+}
+
+
+.price,.shipping,p,a:link,.details-title,.add-cart{
+    font-weight: bold;
+}
+
+.price{
+    /* font-family: sans-serif; */
+    font-size: 35px;
+    /* font-weight: bold; */
+}
+
+
+
+
+.product{
+    border:5px solid black;
+}
+
+
+.shipping{
+    /* font-family: sans-serif; */
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    color: rgb(107, 107, 107);
+}
+
+/* p{
+    font-family: sans-serif;
+    font-weight: bold;
+} */
+
+a:link ,a:visited{
+color: black;
+/* font-family: sans-serif; */
+/* font-weight: bold; */
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.details-title{
+    /* font-family: sans-serif; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* .details-list{
+font-family: sans-serif;
+} */
+
+.add-cart{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+cursor: pointer;
+border: none;
+}
+
+
+.add-cart:hover{
+    background-color: white;
+    color: black;
+    /* border-color: white; */
+}
+
+
